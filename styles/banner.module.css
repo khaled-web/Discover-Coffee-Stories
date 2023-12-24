@@ -1,0 +1,31 @@
+/* hero-Page */
+.container{
+ background-color: transparent;
+}
+
+.title{
+ font-size: 5rem;
+ margin-bottom: 3rem;
+}
+.title1{
+ color: var(--text-white-100);
+ margin-right: .25rem;
+}
+
+.title2{
+ color: var(--text-purple);
+}
+
+.subtitle{
+ color: var(--text-white-100);
+ font-size: 1.5rem;
+ margin-bottom: 1.2rem;
+}
+
+.button{
+ color: var(--text-white-100);
+ background-color: var(--text-purple-dark);
+ font-size: 1.1rem;
+ padding: 1rem 2rem;
+ cursor: pointer;
+}
