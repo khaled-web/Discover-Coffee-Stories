@@ -8,9 +8,8 @@ function coffeeStore() {
   return (
     <div>
        Coffee Store Page...{router.query.id} <br/>
-       <Link href="/dynamic">
-        Welcome to next.js with ankita
-        </Link> 
+       <Link href="/">Back to Home</Link> <br/>
+       <Link href="/coffee-store/dynamic">Go to page dynamic</Link>
     </div>
   )
 }
