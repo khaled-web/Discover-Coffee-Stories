@@ -4,7 +4,7 @@ import Head from 'next/head'
 function dynamicRoute() {
   const router = useRouter()
   const query = router.query.dynamic
-  console.log("query", query)
+  // console.log("query", query)
   return (
     <div>
       <Head>
